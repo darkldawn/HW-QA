@@ -42,7 +42,6 @@ class Park {
         private String name;
         private String workingHours;
         private int cost;
-
         public Attraction(String name, String workingHours, int cost) {
             this.name = name;
             this.workingHours = workingHours;
