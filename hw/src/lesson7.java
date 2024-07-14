@@ -32,7 +32,6 @@ class Employee {
         this.salary = salary;
         this.age = age;
     }
-
     public void printInfo() {
         System.out.println("Name: " + name + ", Position: " + position + ", Email: " + email +
                 ", Phone: " + phone + ", Salary: " + salary + ", Age: " + age);
