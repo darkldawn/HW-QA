@@ -38,7 +38,6 @@ class Employee {
                 ", Phone: " + phone + ", Salary: " + salary + ", Age: " + age);
     }
 }
-
 class Park {
     class Attraction {
         private String name;
