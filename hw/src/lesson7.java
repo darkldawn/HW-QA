@@ -1,13 +1,12 @@
 public class lesson7 {
     public static void main(String[] args) {
-        // Создаем массив из 5 сотрудников
-        Employee[] employees = new Employee[5];
-        employees[0] = new Employee("Кузнецова Ева", "Инженер", "ivivan@mailbox.com", "892312312", 30000, 30);
-        employees[1] = new Employee("Алексеев Даниил", "Менеджер", "petrov@mailbox.com", "892312313", 40000, 35);
-        employees[2] = new Employee("Петров Иван", "Разработчик", "sidorov@mailbox.com", "892312314", 50000, 28);
-        employees[3] = new Employee("Гаврилов Костантин", "Аналитик", "smirnov@mailbox.com", "892312315", 35000, 40);
-        employees[4] = new Employee("Лиманов Илья", "Дизайнер", "kuznetsov@mailbox.com", "892312316", 45000, 25);
-        for (Employee employee : employees) {
+        Employee[] persArray = new Employee[5];
+        persArray[0] = new Employee("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", 30000, 30);
+        persArray[1] = new Employee("Petrov Petr", "Manager", "petrov@mailbox.com", "892312313", 40000, 35);
+        persArray[2] = new Employee("Sidorov Sidr", "Developer", "sidorov@mailbox.com", "892312314", 50000, 28);
+        persArray[3] = new Employee("Smirnov Smir", "Analyst", "smirnov@mailbox.com", "892312315", 35000, 40);
+        persArray[4] = new Employee("Kuznetsov Kuz", "Designer", "kuznetsov@mailbox.com", "892312316", 45000, 25);
+        for (Employee employee : persArray) {
             employee.printInfo();
         }
         Park park = new Park();
@@ -15,7 +14,6 @@ public class lesson7 {
         attraction.printInfo();
     }
 }
-
 class Employee {
     private String name;
     private String position;
